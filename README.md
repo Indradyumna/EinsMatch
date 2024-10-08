@@ -1,3 +1,10 @@
+# EINSMATCH
+
+Iteratively Refined Early Interaction Alignment for Subgraph Matching based Graph Retrieval
+
+This directory contains code necessary for running all the experiments.
+
+
 # Steps for training/running the models
 
 ### Setting up the environment
@@ -50,3 +57,8 @@
     6. Multi-layer Node partner - `configs\rq4_baselines\scoring=sinkhorn_pp=lrl___tp=sinkhorn_pp=lrl_when=post___unify=true.yaml`
 
 - Configs to perform ablations on the (T,K) parameters for multi-round and (K) parameter for multi-layer can be found in `configs\rq7_efficiency`.
+
+
+---------
+Indradyumna Roy, Indian Institute of Technology - Bombay  
+indraroy15@cse.iitb.ac.in
